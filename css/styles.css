@@ -1,0 +1,130 @@
+/*=============== COMMON STYlES ===============*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #22343d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/*=============== /COMMON STYlES ===============*/
+
+/*=============== HEADER STYlES ===============*/
+.page-header {
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  margin-right: 237px;
+}
+.header-logo-img {
+}
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav-item {
+}
+
+/* .header-nav-item:not(:last-child) {
+    margin-right: 30px;
+} */
+
+.header-nav-link {
+  font-size: 16px;
+  line-height: 1.75;
+  display: block;
+  padding: 26px 0;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #02897a;
+}
+
+.current {
+  font-weight: 600;
+}
+
+.header-btn-list {
+  display: flex;
+  gap: 24px;
+}
+.header-btn-item {
+}
+.header-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  background-color: transparent;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  min-width: 102px;
+  height: 42px;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+}
+/*=============== /HEADER STYlES ===============*/
