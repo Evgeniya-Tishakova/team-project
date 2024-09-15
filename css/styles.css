@@ -128,3 +128,57 @@ address {
   border: none;
 }
 /*=============== /HEADER STYlES ===============*/
+
+/*=============== HERO STYlES ===============*/
+.hero-section {
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.hero-section .container {
+  display: flex;
+  align-items: center;
+}
+.hero-title {
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+.hero-text {
+  max-width: 465px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+.hero-btn-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.hero-btn-item {
+}
+.hero-btn {
+}
+.hero-btn-started {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+  border-radius: 4px;
+  min-width: 178px;
+  height: 53px;
+  border: none;
+}
+.hero-btn-video {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background-color: transparent;
+  border: none;
+  min-width: 164px;
+  height: 23px;
+}
+.hero-img {
+}
+/*=============== /HERO STYlES ===============*/
