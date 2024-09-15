@@ -182,3 +182,41 @@ address {
 .hero-img {
 }
 /*=============== /HERO STYlES ===============*/
+.product-section {
+  padding-bottom: 50px;
+}
+.product-title {
+  font-size: 32px;
+text-align: center;
+max-width: 535px;
+margin: 0 auto 50px auto;
+}
+
+.product-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.product-item {
+  width: calc((100% - 90px)/4);
+}
+.product-item-title {
+  font-weight: 600;
+font-size: 22px;
+margin-bottom: 13px;
+}
+.product-item-descr {
+  line-height: 1.6;
+}
+.product-btn {
+  min-width: 175px;
+height: 53px;
+background-color: #02897a;
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+text-transform: uppercase;
+border: none;
+margin: 0 auto;
+display: block;
+}
